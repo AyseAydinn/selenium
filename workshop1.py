@@ -8,7 +8,6 @@ from selenium.webdriver.common .action_chains import ActionChains
 driver = webdriver.Chrome()
 driver.get("https://www.etiya.com")
 driver.maximize_window()
-
 #function
 def fncGetByX(param1,param2):
     WebDriverWait(driver,5).until(expected_conditions.visibility_of_element_located((param1,param2)))
