@@ -197,8 +197,6 @@ emailok = driver.find_element(By.XPATH, "/html/body/div[11]/div/div[3]/div/butto
 emailok.click()
 
 sleep(2)
-
-
 #####################################################
 
 sleep(5000)
